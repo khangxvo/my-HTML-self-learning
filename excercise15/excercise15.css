@@ -1,0 +1,92 @@
+.video-window {
+    position: fixed;
+    height: 100px;
+    width: 170px;
+    bottom: 10px;
+    right: 10px;
+    background-color: grey;
+}
+
+.close-button {
+    position: absolute;
+    left: -15px;
+    top: -15px;
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    background-color: black;
+    border: none;
+    color: white;
+}
+
+.video-time {
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    width: 30px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    display: flex;
+    bottom: 10px;
+    right: 10px;
+}
+
+.cloth-window {
+    background-color: rgb(203, 200, 200);
+    height: 170px;
+    width: 150px;
+    position: relative;
+}
+
+.cloth {
+    object-fit: cover;
+    height: 150px;
+    width: 150px;
+    padding: 20px 0px;
+    position: absolute;
+    z-index: 3;
+}
+
+.cloth:hover {
+    position: absolute;
+    z-index: 0;
+}
+
+.discount {
+    background-color: rgba(62, 60, 60, 0.8);
+    z-index: 3;
+    color: white;
+    font-family: arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px;
+    font-size: 10px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.cart-container {
+    display: flex;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.6);
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.add-button {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    padding: 5px 5px;
+    width: 80px;
+    font-size: 10px;
+    position: absolute;
+}

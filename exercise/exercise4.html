@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<head></head>
+<body>
+    <style>
+        .move{
+            background-color: aliceblue;
+            border-radius: 2px;
+            padding: 10px 10px;
+            border-width: 1px;
+            margin: 10px;
+        }
+
+        .move:hover{
+            background-color: antiquewhite;
+        }
+
+        .page{
+            margin: 5px;
+        }
+
+        .stretch{
+            background-color: green;
+            color: white;
+            font: bold;
+            padding: 10px 10px;
+            border: none;
+            margin: 10px;
+            transition: .15s;
+        }
+
+        .stretch:hover{
+            padding: 20px 20px;
+        }
+
+        .shadow{
+            background-color: green;
+            color: white;
+            font: bold;
+            padding: 10px 10px;
+            border: none;
+            margin: 10px;
+            box-shadow: 3px 3px 5px black;
+            transition: .15s;
+            cursor:grabbing;
+        }
+
+        .shadow:active{
+            margin-right: 6px;
+            margin-bottom: 6px;
+            box-shadow: none;        
+
+            /* margin-top: 3px;
+            margin-left: 3px;
+            box-shadow: none; */
+        }
+
+        .n{
+            background-color: green;
+            color: white;
+            font: bold;
+            padding: 10px 10px;
+            border: none;
+            margin: 10px;
+            transition: .15s;
+        }
+
+        .n:hover{
+            padding: 10px 20px;
+            margin: 0px;
+        }
+    </style>
+
+    <p>
+        <button class="move">Back</button>
+        <a class = "page" href="http://127.0.0.1:5500/exercise4.html">1</a>
+        <a class = "page" href="http://127.0.0.1:5500/exercise4.html">2</a>
+        <a class = "page" href="http://127.0.0.1:5500/exercise4.html">3</a>
+        <a class = "page" href="http://127.0.0.1:5500/exercise4.html">4</a>
+        <a class = "page" href="http://127.0.0.1:5500/exercise4.html">5</a>
+        <button class="move">Next</button>
+    </p>
+
+    <p>
+        <button class="stretch">Stretch</button>
+    </p>
+
+    <p>
+        <button class="shadow">Shadow</button>
+    </p>
+
+    <p>
+        <button class="n">One</button>
+        <button class="n">Two</button>
+        <button class="n">Three</button>
+    </p>
+
+
+</body>

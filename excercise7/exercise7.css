@@ -1,0 +1,31 @@
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    vertical-align: middle;
+}
+
+.search-box {
+    width: 150px;
+    height: 20px;
+    border: none;
+    vertical-align: middle;
+}
+
+.tweet {
+    width: auto;
+    border-radius: 25px;
+    background-color: rgb(0, 153, 255);
+    border: none;
+    color: white;
+    padding: 5px 10px
+}
+
+.linkin {
+    width: 200px;
+    margin-top: -50px;
+}
+
+.Link {
+    margin: 0px;
+}

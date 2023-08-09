@@ -1,0 +1,47 @@
+.prf-avatar {
+    height: 200px;
+    width: 205px;
+}
+
+.prf-div {
+    display: grid;
+    height: 300px;
+    grid-template-rows: 200px 1fr;
+    vertical-align: top;
+    box-shadow: 5px 5px 50px;
+    /* border-style: solid; */
+}
+
+.name {
+    font-weight: bold;
+    padding-bottom: -10px;
+}
+
+.friend-avatar {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+}
+
+.friends {
+    font-family: roboto;
+    color: rgba(128, 128, 128, 0.777)
+}
+
+.add-friend-button {
+    padding: 10px 20px;
+    background-color: rgb(0, 119, 255);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.add-friend-button:hover {
+    opacity: 0.8;
+}
+
+.add-friend-button:active {
+    opacity: 0.5;
+}

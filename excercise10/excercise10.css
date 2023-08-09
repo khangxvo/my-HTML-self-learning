@@ -1,0 +1,70 @@
+.prf-pic {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+
+}
+
+.prf-div {
+    width: 120px;
+    height: 120px;
+    display: inline-block;
+}
+
+.acc-description {
+    display: inline-block;
+    height: 120px;
+    width: 300px;
+    font-size: 19px;
+}
+
+.prf-name {
+    font-weight: bold;
+    vertical-align: text-top;
+    size: 400px;
+}
+
+.occupation {
+    size: 400px;
+    font-family: roboto, arial;
+    color: rgba(74, 73, 73, 0.273);
+}
+
+.status {
+    font-family: roboto, arial;
+    color: rgba(74, 73, 73, 0.273);
+}
+
+.follow-div {
+    width: 120px;
+    height: 120px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.follow-button {
+    padding: 10px 10px;
+    background-color: rgb(0, 166, 255);
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.follow-button:hover {
+    opacity: 0.8;
+}
+
+.follow-button:active {
+    opacity: 0.5;
+}
+
+.ai-pic {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    object-position: mid mid;
+    border-radius: 50px;
+}

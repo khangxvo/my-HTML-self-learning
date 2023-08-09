@@ -1,0 +1,77 @@
+.mail-box {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    width: 400px;
+    margin-bottom: 500px;
+}
+
+.inboxes {
+    font-size: 15px;
+    font-family: roboto;
+    margin: 5px 10px;
+    color: rgba(0, 0, 0, 0.487);
+}
+
+.mails {
+    display: flex;
+    flex-direction: column;
+}
+
+.mail {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 10px;
+    flex: 1;
+}
+
+.mail:hover {
+    background-color: grey;
+    opacity: 0.6;
+
+}
+
+.ava-div {
+    width: 50px;
+}
+
+.mail-ava {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border-style: groove;
+    object-fit: cover;
+}
+
+.mail-content {
+    flex: 1;
+}
+
+.mail-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.mail-title {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.arrived-time {
+    font-size: 10px;
+    font-family: roboto;
+    color: rgba(0, 0, 0, 0.487);
+}
+
+.sub-title {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.content {
+    font-family: roboto;
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.487);
+}

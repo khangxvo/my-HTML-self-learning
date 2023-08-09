@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Excercise 12</title>
+        <link rel="stylesheet" href="notifications.css">
+        <link rel="stylesheet" href="search-box.css">
+    </head>
+
+    <body>
+        <div>
+            <p>This is flex box practice section</p>
+            <div style="
+                display: flex;
+                flex-direction: row;">
+
+                <div style="background-color: lightblue; 
+                width: 50px">item1</div>
+                <div style="background-color: pink; 
+                flex: 1">item2</div>
+                <div style="background-color:lightblue;
+                width: 75px">item3</div>
+            </div>
+
+            <div style="
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;">
+
+                <div style="background-color: pink">item1</div>
+                <div style="background-color: pink">item2</div>
+                <div style="background-color: pink">item3</div>
+                <div style="background-color: pink">item4</div>
+            </div>
+
+            <div style="
+                display: flex;
+                height: 50px;
+                border-style: solid;
+                justify-content: space-between;
+                align-items: center">
+                
+                <div style="background-color: pink">item1</div>
+                <div style="background-color: pink">item2</div>
+            </div>
+
+            <p>done!</p>
+        </div>
+
+        <div>
+            This section is for notification design 
+
+            <div class="box">
+                <div class="content">
+                    <p class="indicator">Home</p>
+                    <button class="amount">14</button>
+                </div>
+
+                <div class="content">
+                    <p class="indicator">Notifications</p>
+                    <button class="amount">3</button>
+                </div>
+
+                <div class="content">
+                    <p class="indicator">Messanges</p>
+                    <button class="amount">5</button>
+                </div>
+            </div>
+            Done!
+        </div>
+
+        <div style="
+            padding: 5px 10px;
+            display: flex;
+            flex-direction: row;
+            background-color: rgba(166, 70, 164, 0.889);
+            height: 50px;
+            margin-top: 30px;
+            justify-content: space-between;
+            align-items: center;">
+            
+            <div style="width: 100px;">
+                <p class="home">Home</p>
+            </div>
+
+            <input type="text" placeholder="Search" class="search-box">
+
+            <button class="download">Download</button>
+
+        </div>
+    </body>
+</html>
